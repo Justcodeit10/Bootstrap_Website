@@ -1,0 +1,45 @@
+.con{
+    background: url('/images/food2.jpg');
+    height: 100vh;
+}
+.container{
+   margin-top: 10%;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+h2{
+    color: white;
+}
+.imo{
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    border-radius: 10%;
+}
+h1{
+    margin-top: 30px;
+}
+.con2{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+.con3{
+    margin: 20px;
+}
+.con4{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.con5{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+p{
+    color: white;
+}
+p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

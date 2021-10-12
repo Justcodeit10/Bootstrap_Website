@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Website</title>
+  <!-- BOOTSTRAP CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="con">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fooddie</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Explore</a></li>
+                <li><a class="dropdown-item" href="#">Connect</a></li>
+                <li><a class="dropdown-item" href="#">Services</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="con2">
+      <div class="container">
+        <h2>Food contains the nutrition that people and animals need to be healthy. The consumption of food is normally
+          enjoyable to humans. </h2>
+        <button type="button" class="btn btn-outline-light">Articles</button>
+        <button type="button" class="btn btn-outline-warning ">Shop</button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <h1>Importance of food</h1>
+        <br>
+        <h3>
+          Food is the most important thing in our lives besides water. Moreover, healthy eating means eating a variety
+          of food that gives you the nutrients you need to maintain your health, feel good, and have energy. ... This is
+          because, when we have high metabolism, the energy will burn the calories in our body fas
+        </h3>
+      </div>
+      <div class="col-4">
+        <img src="/images/food3.jpg" alt="" class="imo">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-8">
+        <h1>Healthy day </h1>
+        <br>
+        <h3>
+          Health is about being physically, mentally and socially fit and active. A healthy person is always ready to
+          work in any situation. A healthy person is more productive than an unhealthy person. The glow on his face
+          reflects his health. People also describe a healthy body as a body without any disease. The health is the most
+          critical factor to take care.
+        </h3>
+      </div>
+      <div class="col-4">
+        <img src="/images/food1.jpg" alt="" class="imo">
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="container">
+    <h1>Fill Out The Form</h1>
+    <div class="con3">
+      <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationTooltip02" value="Steve" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltipUsername" class="form-label">Username</label>
+          <div class="input-group has-validation">
+            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+            <input type="text" class="form-control" id="validationTooltipUsername"
+              aria-describedby="validationTooltipUsernamePrepend" required>
+            <div class="invalid-tooltip">
+              Please choose a unique and valid username.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 position-relative">
+          <label for="validationTooltip03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationTooltip03" required>
+          <div class="invalid-tooltip">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip04" class="form-label">State</label>
+          <select class="form-select" id="validationTooltip04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-tooltip">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="con4">
+   <div class="con5">
+     <p>Food</p>
+     <p>Menu</p>
+     <p>Gym</p>
+     <p>Health</p>
+     <p>Article</p>
+   </div>
+   <div class="con5">
+     <p>Food</p>
+     <p>Menu</p>
+     <p>Gym</p>
+     <p>Health</p>
+     <p>Article</p>
+   </div>
+   <div class="con5">
+     <p>Food</p>
+     <p>Menu</p>
+     <p>Gym</p>
+     <p>Health</p>
+     <p>Article</p>
+   </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
